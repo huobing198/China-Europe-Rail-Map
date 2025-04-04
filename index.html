@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>中欧班列贸易交互地图</title>
+    <!-- Leaflet地图库 -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #map {
+            width: 100%;
+            height: 600px;  /* 地图高度 */
+        }
+        .custom-popup {
+            font-family: Arial;
+            background: #f0f8ff;  /* 浅蓝色背景 */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="data.js"></script> <!-- 包含GeoJSON数据 -->
+    <script src="main.js"></script> <!-- 主逻辑代码 -->
+</body>
+</html>
